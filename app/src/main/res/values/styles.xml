@@ -11,12 +11,10 @@
         <!-- Customize NavBar Color-->
         <item name="android:navigationBarColor" tools:targetApi="21">@color/ColorPrimaryDark</item>
 
-    </style>
-
-    <!-- Base application theme without ActionBar shadow -->
-    <style name="AppTheme.NoElevationActionBar" parent="AppTheme">
+        <!-- Shadow -->
         <item name="actionBarStyle">@style/Theme.MyApp.ActionBar</item>
         <item name="android:windowContentOverlay">@null</item>
+
     </style>
 
     <!-- ActionBar Style (No Shadow) -->
