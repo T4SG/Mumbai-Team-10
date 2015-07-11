@@ -2,7 +2,8 @@
 <resources>
     <color name="ColorPrimary">#FF7701</color>
     <color name="ColorPrimaryDark">#ffe16a01</color>
-    <color name="ColorPrimaryLight">#ffffac00</color>
+    <color name="ColorPrimaryLight">#FEA038</color>
     <color name="ColorBackground">#E8E9EA</color>
-
+    <color name="ColorTextLight">#ffffff</color>
+    <color name="ColorTextDark">#000000</color>
 </resources>
