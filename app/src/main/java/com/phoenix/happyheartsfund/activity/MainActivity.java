@@ -1,10 +1,12 @@
-package com.phoenix.happyheartsfund;
+package com.phoenix.happyheartsfund.activity;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.phoenix.happyheartsfund.R;
 
 
 public class MainActivity extends AppCompatActivity {
