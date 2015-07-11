@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.phoenix.happyheartsfund.DonateActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$5"
+        android:id="@+id/button2"
+        android:layout_marginTop="54dp"
+        android:paddingBottom="5dp"
+        android:textColor="#FFFFFF"
+        android:background="#FF7701"
+        android:onClick="openLink"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="$10"
+        android:id="@+id/button3"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="49dp"
+        android:textColor="#FFFFFF"
+        android:background="#FF7701"
+        android:onClick="openLink"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$20"
+        android:id="@+id/button4"
+        android:paddingBottom="5dp"
+        android:background="#FF7701"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:onClick="openLink"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OTHER"
+        android:id="@+id/button5"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="73dp"
+        android:textColor="#FFFFFF"
+        android:background="#FF7701"
+        android:layout_marginTop="52dp"
+        android:onClick="openLink"/>
+
+
+</LinearLayout>
