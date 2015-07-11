@@ -9,11 +9,11 @@ import android.view.ViewGroup;
 
 import com.phoenix.happyheartsfund.R;
 
-public class MainFragmentTab1 extends Fragment {
+public class MainFragmentTab2 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v =inflater.inflate(R.layout.fragment_main_tab1,container,false);
+        View v =inflater.inflate(R.layout.fragment_main_tab2,container,false);
         return v;
     }
 }
